@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+- Về phía backend :
+  1.Tạo một thư mục cho dự án:
+  Mở terminal và chạy lệnh sau để tạo một thư mục mới cho dự án:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  mkdir my-nodejs-server
+  cd my-nodejs-server
 
-Currently, two official plugins are available:
+  2.Khởi tạo dự án Node.js:
+  Chạy lệnh sau để tạo một package.json mới cho dự án:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  npm init -y
+  Lệnh trên sẽ tạo một package.json với các giá trị mặc định.
 
-## Expanding the ESLint configuration
+  3.Tạo file server:
+  Tạo một file JavaScript (ví dụ: server.js) trong thư mục dự án và sử dụng Express để tạo server. Mở file này và thêm mã đã được tổng hợp ở file : server.js ở folder src/api/server.js
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  4.Cài đặt các thư viện cần thiết
+  npm i
 
-- Configure the top-level `parserOptions` property like this:
+  5.Chạy server(có thể cài thêm nodemon nếu muốn):
+  npm start
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Về phía front-end:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+  1.Clone responsitory :
+  git clone https://github.com/Yuno0205/admin-amz.git
+
+  2.Cài đặt các thư viện cần thiết:
+  npm i
+
+  3.Chạy app
+  npm run dev
+
+- Account :
+  Admin : admin@gmail.com admin
+  User : username@gmail.com password1
